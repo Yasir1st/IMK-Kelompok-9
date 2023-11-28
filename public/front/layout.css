@@ -75,17 +75,17 @@
 }
 
 .nav .search input{
-    padding: 10px 20px;
+    padding: 10px 0 10px 20px;
     border-radius: 20px 0 0 20px;
     outline: none;
     border: none;
     width: 100%;
-    height: 45px;
+    height: 40px;
 }
 
 .nav .search img{
     padding: 6px;
-    height: 45px;
+    height: 40px;
     width: 55px;
     background-color: white;
     padding-right: 20px;
@@ -144,3 +144,26 @@
     color: white;
 }
 
+
+@media screen and (max-width: 640px){
+    .nav .search{
+        display: none;
+    }
+
+    .nav {
+        padding: 10px 20px;
+    }
+
+    .nav ul{
+        margin-bottom: 15px;
+        margin-right: 5px;
+    }
+
+    .nav ul li{
+        margin-right: 5px;
+    }
+
+    .footer .up{
+        gap: 15px;
+    }
+}

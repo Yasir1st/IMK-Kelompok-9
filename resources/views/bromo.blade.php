@@ -23,20 +23,24 @@
         <div class="main">
             {{-- Wisata Deskripsi --}}
             <div class="deskripsi">
-                <div class="hero">
+                <div class="hero" style="background-image: url('/img/bromo2.jpg');">
                     <img src="{{ asset('logo/Rating.png') }}" alt="" class="rating">
                 </div>
                 <div class="deskirpsiWisata">
                     <h2 class="titleWisata">BROMO</h2>
-                    <p class="desc">Ratione? Natus aspernatur totam atque rerum ut? Numquam, fuga ducimus accusamus fugiat sunt accusantium, eaque minima ex deserunt ad ut quas? Error, modi ut repellendus corrupti optio aut facilis enim quis, fuga magni, aliquid magnam minima? Earum recusandae alias reprehenderit officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, fugiat est fuga accusantium ea culpa perferendis esse veritatis voluptas quidem, excepturi et autem, nihil quod beatae eligendi commodi provident. Vel reprehenderit, natus perferendis nemo placeat obcaecati! Autem, fuga culpa? Repudiandae perspiciatis, impedit deleniti at eligendi assumenda beatae vitae odio. Error nihil in quia nulla quos fugiat repudiandae laborum consequuntur optio impedit debitis repellat, perferendis iure, eius commodi. Maiores tempore eveniet veritatis, molestiae earum minima enim optio repellat ab ipsam excepturi. Exercitationem deleniti dolorem iure possimus. Doloribus at ipsam odit blanditiis, aspernatur mollitia expedita laborum animi quasi numquam. Assumenda veniam vitae nemo aperiam quos provident consectetur? Quas fuga quia obcaecati fugit, dolorem magni sed suscipit, illum error saepe, iusto doloremque voluptatum. Dolor hic nihil, necessitatibus, natus cupiditate doloribus consectetur est dolore quos fugit facere ratione distinctio debitis. Quo, quia! Incidunt velit, harum possimus aliquam quasi cupiditate impedit at, inventore non nostrum ipsa autem ducimus animi repellendus architecto nihil vitae itaque consectetur reprehenderit! Nemo minima quos distinctio necessitatibus. Obcaecati tempora in laboriosam cumque incidunt. Voluptates, ipsa recusandae minima repudiandae, eos deleniti culpa magnam quam voluptatibus veritatis quos reiciendis optio adipisci dolores? Assumenda harum similique, maiores porro ex labore expedita atque modi sunt?</p>
+                    <p class="desc">Gunung Bromo, terletak di Kabupaten Probolinggo, Jawa Timur, adalah salah satu gunung berapi paling ikonik di Indonesia. Dengan ketinggian sekitar 2.392 meter di atas permukaan laut, gunung ini menawarkan pengalaman alam yang luar biasa. Yang membuatnya begitu menarik adalah kawahnya yang aktif, yang menjadi objek utama yang sering dikunjungi oleh wisatawan asing maupun lokal.
+
+                        Untuk mencapai bibir kawah, para pengunjung harus menaiki serangkaian tangga yang cukup panjang, yang menghadirkan petualangan tersendiri. Saat mencapai puncak kawah, pengunjung akan disuguhi pemandangan luar biasa dari kawah yang mengeluarkan asap dan abu, menciptakan suasana mistis yang memukau.
+                        
+                        Selain itu, Gunung Bromo juga dikenal sebagai salah satu tempat terbaik untuk menikmati matahari terbit dan terbenam. Keindahan panorama alam yang dipadu dengan cahaya matahari yang memancar di atas kabut dan asap gunung menciptakan momen yang tak terlupakan bagi para pengunjung. Ini adalah tempat yang sempurna untuk fotografi dan merasakan keajaiban alam yang luar biasa.</p>
                     <div class="kontakPengelola">
                         <div class="namaPengelola">
                             <img src="{{ asset('logo/user.png') }}" alt="">
-                            <p>Mikey</p>
+                            <p>Agen Wisata Bromo</p>
                         </div>
                         <div class="teleponPengelola">
                             <img src="{{ asset('logo/phone.png') }}" alt="">
-                            <p>085156093201</p>
+                            <p>+62 813 3289 9993</p>
                         </div>
                     </div>
                 </div>
@@ -61,30 +65,30 @@
                 <div class="bar"></div>
                 <div class="listPenginapan">
 
-                    <div class="penginapanBox">
-                        <p class="jarak">300 m</p>
+                    <div class="penginapanBox" style="background-image: url('/imgPenginapan/bilh.jpg');">
+                        <p class="jarak">50,6 km</p>
                         <div class="descPenginapan">
-                            <p class="nama">Penginapan 1</p>
-                            <p class="deskripsiPenginpan">Lorem ipsum dolor sit. sit amet consectetur adipisicing elit. Maiores ut molestiae doloremque enim?</p>
-                            <p>Kontak : 085156798021</p>
+                            <p class="nama">Bromo Indah Lestari Homestay</p>
+                            <p class="deskripsiPenginpan">Jl. Bromo No.9,Wonokitri, Kecamatan Tosari, Kabupaten Pasuruan, Jawa Timur 67177</p>
+                            <p>Kontak : 0813-3474-2064</p>
                         </div>
                     </div>
 
-                    <div class="penginapanBox">
-                        <p class="jarak">300 m</p>
+                    <div class="penginapanBox" style="background-image: url('/imgPenginapan/oyo.jpg');">
+                        <p class="jarak">96,1 km</p>
                         <div class="descPenginapan">
-                            <p class="nama">Penginapan 1</p>
-                            <p class="deskripsiPenginpan">Lorem ipsum dolor sit. sit amet consectetur adipisicing elit. Maiores ut molestiae doloremque enim?</p>
-                            <p>Kontak : 085156798021</p>
+                            <p class="nama">OYO 1966 Bromo Hill</p>
+                            <p class="deskripsiPenginpan">Jl. Ps. Sayur No.7, Watulumpang, Sukapura, Keca. Sukapura, Kab. Probolinggo, Jawa Timur 67254</p>
+                            <p>Kontak : 0857-5557-3382</p>
                         </div>
                     </div>
 
-                    <div class="penginapanBox">
-                        <p class="jarak">300 m</p>
+                    <div class="penginapanBox" style="background-image: url('/imgPenginapan/homestayAB.jpg');">
+                        <p class="jarak">57,8 km</p>
                         <div class="descPenginapan">
-                            <p class="nama">Penginapan 1</p>
-                            <p class="deskripsiPenginpan">Lorem ipsum dolor sit. sit amet consectetur adipisicing elit. Maiores ut molestiae doloremque enim?</p>
-                            <p>Kontak : 085156798021</p>
+                            <p class="nama">Homestay Anggun Bromo</p>
+                            <p class="deskripsiPenginpan">Jl. Ringgit, Ponjol, Wonokerto, Kec. Sukapura, Kabupaten Probolinggo, Jawa Timur 67254</p>
+                            <p>Kontak : 0823-0247-7773</p>
                         </div>
                     </div>
 
@@ -99,38 +103,29 @@
                 <div class="daftarKuliner">
 
                     <div class="deskripsiKuliner">
-                        <div class="imgKuliner"></div>
+                        <div class="imgKuliner" style="background-image: url('/imgKuliner/aron.jpeg');"></div>
                         <div class="nameKuliner">
-                            <p class="name">Kuliner 1</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, explicabo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi?</p>
+                            <p class="name">Nasi Aron</p>
+                            <p>Nasi Aron terbuat dari jagung berbiji putih yang hanya terdapat di kawasan Gunung Bromo. Keunikan makanan ini terletak pada rasa gurih dan teksturnya yang lembut.</p>
                             <h4>50 m</h4>
                         </div>
                     </div>
 
                     <div class="deskripsiKuliner">
-                        <div class="imgKuliner"></div>
+                        <div class="imgKuliner" style="background-image: url('/imgKuliner/sawut.jpeg');"></div>
                         <div class="nameKuliner">
-                            <p class="name">Kuliner 1</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, explicabo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi?</p>
-                            <h4>50 m</h4>
+                            <p class="name">Sawut Kabut</p>
+                            <p>Sawut Kabut adalah hidangan khas Gunung Bromo yang terbuat dari ubi yang diparut dan irebus hingga menghasilkan tekstur yang kenyal dan cita rasa yang gurih.</p>
+                            <h4>40 m</h4>
                         </div>
                     </div>
 
                     <div class="deskripsiKuliner">
-                        <div class="imgKuliner"></div>
+                        <div class="imgKuliner" style="background-image: url('/imgKuliner/pokak.jpeg');"></div>
                         <div class="nameKuliner">
-                            <p class="name">Kuliner 1</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, explicabo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi?</p>
-                            <h4>50 m</h4>
-                        </div>
-                    </div>
-
-                    <div class="deskripsiKuliner">
-                        <div class="imgKuliner"></div>
-                        <div class="nameKuliner">
-                            <p class="name">Kuliner 1</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, explicabo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi?</p>
-                            <h4>50 m</h4>
+                            <p class="name">Pokak</p>
+                            <p>Wedang Pokak, adalah minuman tradisional yang sangat populer di Jawa Timur. Minuman ini biasanya disajikan dalam bentuk sirup yang mudah diseduh.</p>
+                            <h4>45 m</h4>
                         </div>
                     </div>
 
@@ -146,24 +141,8 @@
                     <div class="deskripsiEvent">
                         <div class="imgEvent"></div>
                         <div class="namaEvent">
-                            <p class="nama">Jazz Gunung</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur veniam quibusdam neque placeat veritatis dicta cumque, harum, ratione quidem, sed delectus optio autem nam similique eos! Ratione enim cum perferendis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis autem libero modi, quaerat labore nihil explicabo ipsum? Perferendis enim eaque consequatur adipisci omnis, labore officia dolor architecto cumque ab quasi!</p>
-                        </div>
-                    </div>
-
-                    <div class="deskripsiEvent">
-                        <div class="imgEvent"></div>
-                        <div class="namaEvent">
-                            <p class="nama">Jazz Gunung</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur veniam quibusdam neque placeat veritatis dicta cumque, harum, ratione quidem, sed delectus optio autem nam similique eos! Ratione enim cum perferendis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis autem libero modi, quaerat labore nihil explicabo ipsum? Perferendis enim eaque consequatur adipisci omnis, labore officia dolor architecto cumque ab quasi!</p>
-                        </div>
-                    </div>
-
-                    <div class="deskripsiEvent">
-                        <div class="imgEvent"></div>
-                        <div class="namaEvent">
-                            <p class="nama">Jazz Gunung</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur veniam quibusdam neque placeat veritatis dicta cumque, harum, ratione quidem, sed delectus optio autem nam similique eos! Ratione enim cum perferendis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis autem libero modi, quaerat labore nihil explicabo ipsum? Perferendis enim eaque consequatur adipisci omnis, labore officia dolor architecto cumque ab quasi!</p>
+                            <p class="nama">Jazz Gunung Bromo</p>
+                            <p>Jazz Gunung Bromo 2023 adalah pementasan musik jazz dengan tingkat internasional yang secara rutin diadakan setiap tahun di kawasan pegunungan Tengger, khususnya di amfiteater Hotel Jiwa Jawa Resort Bromo. Acara ini telah menjadi wadah unik di mana musik jazz dengan unsur etnik terpadu menghiasi panggung terbuka di bawah langit terbuka yang mempesona, dengan latar belakang keindahan alam Gunung Bromo.</p>
                         </div>
                     </div>
 
@@ -182,24 +161,19 @@
                     </div>
                     <div class="listKomentar">
                         <div class="komentar">
-                            <p class="komentator">Fathurrahman</p>
-                            <p class="isiKomentar">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat et odit provident delectus tempora tenetur fuga harum cupiditate veritatis quisquam.</p>
+                            <p class="komentator">Esrii 32</p>
+                            <p class="isiKomentar">Gak usah banyak ina inu, langsung gass aja yang mau ke Bromo, backpaker-an atau ikut open trip udah gampil banget ke Bromo mah.
+                                Penginapan, akomodasi, sewa motor/mobil, makanan udah ga perlu dijelasin lagi, banyak!!!
+                                Rekomen buat stay beberapa hari sih kalo ke Bromo, biar sekalian explore tempat wisata lainnya daerah Malang, Batu dll.</p>
                         </div>
                         <div class="komentar">
-                            <p class="komentator">Fathurrahman</p>
-                            <p class="isiKomentar">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat et odit provident delectus tempora tenetur fuga harum cupiditate veritatis quisquam.</p>
+                            <p class="komentator">Selin Tia</p>
+                            <p class="isiKomentar">Gaada planning dari jauh hari buat kesini, jadi tiba2 pengen ke Bromo , langsung cari hotel dan sewa Jeep untung dapet ahaha, akhirnya ke Bromo juga, happy banget, tour guide disini ramah2 dan bener2 puas deh holiday di Bromo, bagus banget view-nya, pokoknya harus ke Bromo lagi.. emang bowleh secandu ituuuu.. oh ya makanan yg dijual disana juga harga normal guys jgn takut.</p>
                         </div>
                         <div class="komentar">
-                            <p class="komentator">Fathurrahman</p>
-                            <p class="isiKomentar">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat et odit provident delectus tempora tenetur fuga harum cupiditate veritatis quisquam.</p>
-                        </div>
-                        <div class="komentar">
-                            <p class="komentator">Fathurrahman</p>
-                            <p class="isiKomentar">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat et odit provident delectus tempora tenetur fuga harum cupiditate veritatis quisquam.</p>
-                        </div>
-                        <div class="komentar">
-                            <p class="komentator">Fathurrahman</p>
-                            <p class="isiKomentar">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat et odit provident delectus tempora tenetur fuga harum cupiditate veritatis quisquam.</p>
+                            <p class="komentator">Fikri Indrawan</p>
+                            <p class="isiKomentar">Salah satu gunung terbaik di pulau jawa. Susananya masih asri. Udara sejuk. Menggunakan jasa jeep untuk sampai ke puncak. Pemandangan luar biasa indah.
+                                Salah satu gunung terbaik di pulau jawa. Susananya masih asri. Udara sejuk. Menggunakan jasa jeep untuk sampai ke puncak. Pemandangan luar biasa indah.</p>
                         </div>
                     </div>
                 </div>

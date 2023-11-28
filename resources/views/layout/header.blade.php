@@ -12,6 +12,6 @@
     </ul>
     <div class="search">
         <input type="search" placeholder="Cari Wisata ...">
-        <a href=""><img src="{{ asset('logo/Icons.png') }}" alt=""></a>
+        <a href="gunung"><img src="{{ asset('logo/Icons.png') }}" alt=""></a>
     </div>
 </nav>

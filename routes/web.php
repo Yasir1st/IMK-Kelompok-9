@@ -49,3 +49,51 @@ Route::get('/populer', function () {
 Route::get('/bromo', function () {
     return view('bromo');
 });
+
+Route::get('/ijen', function () {
+    return view('ijen');
+});
+
+Route::get('/semeru', function () {
+    return view('semeru');
+});
+
+Route::get('/arjuno', function () {
+    return view('arjuno');
+});
+
+Route::get('/sukamande', function () {
+    return view('sukamande');
+});
+
+Route::get('/balekambang', function () {
+    return view('balekambang');
+});
+
+Route::get('/papuma', function () {
+    return view('papuma');
+});
+
+Route::get('/klayar', function () {
+    return view('klayar');
+});
+
+Route::get('/maron', function () {
+    return view('maron');
+});
+
+Route::get('/cinet', function () {
+    return view('cinet');
+});
+
+Route::get('/sarangan', function () {
+    return view('sarangan');
+});
+
+Route::get('/gumbolo', function () {
+    return view('gumbolo');
+});
+
+Route::get('/tumpaksewu', function () {
+    return view('tumpaksewu');
+});

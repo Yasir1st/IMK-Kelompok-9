@@ -27,9 +27,33 @@
             <div class="listPopuler">
                 <div style="background-image: url('/img/sungaimaron.jpg');" class="boxpopuler">
                     <div class="deskripsi_list">
-                        <h3>Gunung Bromo</h3>
+                        <h3>Sungai Maron</h3>
                         <div class="desk">          
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Sungai maron memiliki air sungai berwarna hijau kebiruan yang merupakan refleksi dari cahaya dari rerimbunan pohon di sekitar sungai. Air Sungai Maron sangat jernih. Pemandangan Sungai Maron berupa pepohonan hijau yang terdapat di tepian sungai selama perjalanan susur sungai, sehingga suasananya sangat sejuk. </p>
+                            <a href="maron" ><img class="arrow" src="{{ asset('logo/next.png') }}"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="listPopuler">
+                <div style="background-image: url('/img/cinet.png');" class="boxpopuler">
+                    <div class="deskripsi_list">
+                        <h3>Kedung Cinet</h3>
+                        <div class="desk">          
+                            <p>Kedung Cinet, sebuah destinasi alam terpencil di Jombang, memikat para pengunjung dengan pesonanya yang unik. Sungai ini terletak di tengah hutan, memberikan suasana alam yang tenang dan asri. Namun, yang benar-benar mengesankan para pengunjung adalah deretan bebatuan yang terletak di tepi sungai, yang seiring</p>
+                            <a href="cinet" ><img class="arrow" src="{{ asset('logo/next.png') }}"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="listPopuler">
+                <div style="background-image: url('/img/sumberm.jpg');" class="boxpopuler">
+                    <div class="deskripsi_list">
+                        <h3>Sumber Maron</h3>
+                        <div class="desk">          
+                            <p>Sumber Maron adalah kompleks destinasi wisata air yang terletak di Kecamatan Pagelaran, Kabupaten Malang, berjarak sekitar 5 kilometer di sebelah barat Kecamatan Gondanglegi, Kabupaten Malang. Sumber Maron dikenal dengan mata airnya yang sangat jernih, sehingga dari kejauhan, airnya tampak berwarna hijau.</p>
                             <a href="" ><img class="arrow" src="{{ asset('logo/next.png') }}"></a>
                         </div>
                     </div>
@@ -37,35 +61,11 @@
             </div>
 
             <div class="listPopuler">
-                <div style="background-image: url('/img/balekambang.jpg');" class="boxpopuler">
+                <div style="background-image: url('/img/kalimas.jpg');" class="boxpopuler">
                     <div class="deskripsi_list">
-                        <h3>Ranu Kumbolo</h3>
+                        <h3>Sungai Kalimas</h3>
                         <div class="desk">          
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <a href="" ><img class="arrow" src="{{ asset('logo/next.png') }}"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="listPopuler">
-                <div style="background-image: url('/img/balekambang.jpg');" class="boxpopuler">
-                    <div class="deskripsi_list">
-                        <h3>Tumpak Sewu</h3>
-                        <div class="desk">          
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <a href="" ><img class="arrow" src="{{ asset('logo/next.png') }}"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="listPopuler">
-                <div style="background-image: url('/img/balekambang.jpg');" class="boxpopuler">
-                    <div class="deskripsi_list">
-                        <h3>Kawah Ijen</h3>
-                        <div class="desk">          
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Sungai Kalimas kini menjadi daya tarik utama sebagai destinasi wisata air yang baru di Kota Surabaya. Terletak di pusat kota, sungai ini telah mengalami transformasi menjadi tempat yang memikat dengan suasana yang romantis. Pemerintah Kota Surabaya dengan cermat merapihkan tepian sungai, memberikan tampilan</p>
                             <a href="" ><img class="arrow" src="{{ asset('logo/next.png') }}"></a>
                         </div>
                     </div>

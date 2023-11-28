@@ -25,9 +25,8 @@
 }
 
 .deskripsi .hero{
-    height: 400px;
+    height: 300px;
     border-radius: 10px;
-    background-image: url('/img/bromo2.jpg');
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -174,12 +173,13 @@
 }
 
 .kuliner .daftarKuliner .deskripsiKuliner{
-    display: flex;
+    display: Grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
 }
 
 .kuliner .daftarKuliner .deskripsiKuliner .imgKuliner{
     height: 100%;
-    width: 180px;
     background-image: url('/imgKuliner/bakso.jpg');
     background-size: cover;
     background-position: center;
@@ -266,7 +266,6 @@
 .pengisianUlasan .inputUlasan .submit{
     margin-top: 10px;
     font-size: 17px;
-    margin-left: 700px;
     border: none;
     background-color: #6f9063;
     color: white;
@@ -296,4 +295,87 @@
 }
 .pengisianUlasan .listKomentar .komentar .komentator{
     font-weight: bold;
+}
+
+@media screen and (max-width: 1150px){
+    .lokasi .alamat .jarak h1{
+        font-size: 25px;
+        margin-top: 0;
+    }
+    
+    .lokasi .alamat .jarak p{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .deskripsi{
+        display: inherit;
+    }
+
+    .deskripsi .hero{
+        margin-bottom: 20px;
+    }
+
+    .lokasi .alamat .jarak{
+        padding: 10px 20px;
+        height: 100px;
+    }
+
+    .lokasi .alamat .jarak h1{
+        font-size: 25px;
+        margin-top: 0;
+    }
+    
+    .lokasi .alamat .jarak p{
+        font-size: 20px;
+    }
+
+    .lokasi .alamat{
+        display: inherit;
+    }
+
+    .penginapan .listPenginapan{
+        display: inherit;
+    }
+
+    .penginapan .listPenginapan .penginapanBox{
+       margin-bottom: 20px;
+    }
+
+    .penginapan .listPenginapan .next img{
+        margin-top: 0;
+    }
+
+    .kuliner .daftarKuliner{
+        display: inherit;
+    }
+
+    .kuliner .daftarKuliner .deskripsiKuliner{
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+    }
+
+    .event .daftarEvent .deskripsiEvent{
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .pengisianUlasan{
+        display: inherit;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .lokasi .alamat .jarak p{
+        font-size: 15px;
+    }
+
+    .deskripsi .deskirpsiWisata .kontakPengelola{
+        display: inherit;
+    }
+
+    .deskripsi .deskirpsiWisata .kontakPengelola div{
+        margin-bottom: 8px;
+    }
 }
